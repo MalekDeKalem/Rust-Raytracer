@@ -100,4 +100,10 @@ mod tests {
         assert_eq!(Vector3d::scalar(a, t), Vector3d::new(10.56, -2.88, 15.84));
     }
 
+    #[test]
+    fn test_negative_num() {
+        let a: f32 = 3.5;
+        assert_eq!(-a, -3.5);
+    }
+
 }
